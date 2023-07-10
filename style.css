@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Universal/Common Style */
+.black-color{
+    color: #272727;
+}
+.text-color{
+    color: #817e7f;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.btn-style{
+    border: none;
+    background-color: #e55473;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-size: large;
+}
+.title{
+    font-size: 35px;
+}
+
+
+/* Header Section */
+
+header{
+    background-color: #e5547321;
+}
+
+/* Banner Section */
+
+.banner{
+    margin: 0 10%;
+    display: flex;
+    padding-top: 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+.description{
+    width: 550px;
+}
+.banner-img{
+    height: 750px;
+}
+.description-title{
+    font-size: 60px;
+    font-weight: 700;
+}
+.description-text{
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+/* Main Section */
+
+/* Services Section */
+.services{
+    margin: 50px 10%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #f4f4f4;
+    padding: 50px;
+}
+.service{
+    justify-content: center;
+    text-align: center;
+}
+
+/* Hot Deal Section */
+
+.hotDeal{
+    background-color: #fdf6f8;
+    padding: 50px 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hotDeal-text{
+    padding: 100px;
+    text-align: center;
+}
+.deal-title{
+    font-size: 35px;
+}
+.deal-text{
+    margin: 20px auto;
+}
+.deal-title span{
+    color: #e55473;
+}
+
+/* Instagram Photo Section */
+
+.instagram{
+    padding: 50px 10%;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.insta-title{
+
+}
+.insta-pics{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.insta-text{
+    margin: 20px auto;
+    width: 50%;
+}
+.pics{
+    width: 23%;
+}
+
+/* Subscription Section */
+.subscribe{
+    background-image: url(images/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 50px 10%;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 350px;
+}
+.subscribe div{
+    padding-top: 100px;
+}
+.email{
+    border: none;
+    padding: 15px 20px;
+    border-radius: 5px;
+    width: 50%;
+}
+
+/* Footer */
+footer{
+    margin-top: 50px;
+    background-color: #111010;
+}
+.footer{
+    padding: 150px 10%;
+    text-align: center;
+    /* height: 350px; */
+}
+.footer-title{
+    color: white;
+}
+.footer-title span{
+    color: #e35372;
+}
+.footer-text{
+    color: white;
+    width: 45%;
+    margin: 20px auto;
+}
+.copywrite{
+
+}
