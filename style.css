@@ -225,6 +225,15 @@ header{
     color: black;
     font-weight: 400;
 }
+.blog-time{
+    padding: 10px;
+    border: none;
+    color: white;
+    background-color: #6ea820;
+    border-radius: 50px;
+    position: relative;
+    bottom: 35px;
+}
 
 /* Footer */
 footer{
