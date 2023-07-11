@@ -191,6 +191,41 @@ header{
     width: 50%;
 }
 
+/* Blog Section */
+.blog{
+    margin: 50px 10%;
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+.blog-title{
+
+}
+.blog-text{
+
+}
+.blogs{
+    display: flex;
+    justify-content: space-between;
+}
+.blog-columns{
+    width: 31%;
+}
+.blog-img{
+    width: 100%;
+}
+.blog-description{
+    border: 3px solid rgba(0, 0, 0, 0.02);
+    background-color: rgba(0, 0, 0, 0.02);
+    border-top: none;
+    margin-top: -4px;
+    padding: 20px 10px;
+}
+.blog-description a{
+    color: black;
+    font-weight: 400;
+}
+
 /* Footer */
 footer{
     margin-top: 50px;
